@@ -58,8 +58,25 @@ h2 {
     height: 24px;
     border-radius: 12px;
     background-color: #d3d3d3;
-    outline: none ;
-    
+    outline: none;
 }
 
-.range-input input[type="range"]::-webkit-slider-runnable-track {
+.range-input input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #e9d60a;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.refenrence-input p {
+    margin-left: 22px;
+}
+
+.form-control input[type="text"] {
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+    text-align: center;
+}
