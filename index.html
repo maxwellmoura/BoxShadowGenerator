@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="./js/script.js" defer></script>
     <title>Gerador de Box Shadow</title>
 </head>
+
 <body>
     <div id="box-shadow-generator">
         <div id="controls-container">
@@ -41,7 +43,7 @@
                     <p>px</p>
                 </div>
             </div>
-                        <div class="form-control">
+            <div class="form-control">
                 <div class="range-input">
                     <label for="spread">Intensidade do espalhamento (Spread):</label>
                     <input type="range" id="spread" name="spread" min="-100" max="100" value="3">
@@ -51,22 +53,47 @@
                     <p>px</p>
                 </div>
             </div>
-            
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="color">Cor da sombra:</label>
+                    <input type="color" id="color" name="color" value="#000000">
+                </div>
+                <div class="refenrence-input">
+                    <input type="text" id="color-value" name="color-value">
+
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="opacity">Opacidade:</label>
+                    <input type="range" id="opacity" name="opacity" min="0" max="1" value="1" step="0.01" />
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="opacity-value" name="opacity-value" />
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="opacity">Sobra interna? (Inset) </label>
+                    <input type="checkbox" id="inset" name="inset">
+                </div>
+            </div>
         </div>
         <div id="preview">
             <h2>Prévia do efeito gerado</h2>
             <div id="box">
-                
             </div>
         </div>
     </div>
     <div id="generated-rule">
         <h2>Copie e Cole o seu arquivo de CSS</h2>
-        <div id="rules-area">
-            <p id="rule">box-shadow <span></span></p>
-            <p id="webkit-rule">webkit-box-shadow <span></span></p>
-            <p id="moz-rule">moz-box-shadow <span></span></p>
+        <div id="rules">
+            <p id="rule">box-shadow: <span></span>;</p>
+            <p id="webkit-rule">webkit-box-shadow: <span></span>;</p>
+            <p id="moz-rule">moz-box-shadow: <span></span>;</p>
         </div>
+        <p id="copy-instructions">Clique no quadro acima para copiar as regras</p> 
     </div>
 </body>
+
 </html>
