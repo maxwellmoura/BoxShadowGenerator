@@ -83,7 +83,7 @@ $ yarn start
 Este projeto é de livre uso e distribuição. Sinta-se à vontade para contribuir e melhorar!
 
 
-Desenvolvido :heart: por <a href="https://github.com/{{maxwellmoura}}" target="_blank">{{Maxwell Moura}}</a>
+Desenvolvido :heart: por <a href="https://github.com/maxwellmoura" target="_blank">{{Maxwell Moura}}</a>
 
 &#xa0;
 
