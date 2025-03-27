@@ -47,17 +47,11 @@ h2 {
     flex: 1;
 }
 
-/* Resetando os estilos dos ranges */
-.range-input input[type="range"] {
-    -webkit-appearance: none;
-}
-
-.range-input input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-}
-
 /* Estilos novos do input range */
 .range-input input[type="range"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     width: 100%;
     height: 24px;
     border-radius: 12px;
@@ -101,6 +95,7 @@ h2 {
     width: 100%;
     height: 300px;
     background-color: #e9d60a;
+    margin: 50px;
 }
 
 /* Area de geração */
@@ -118,8 +113,34 @@ h2 {
     margin: 0 auto;
     border: 2px solid #e9d60a;
     padding: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 #rules:hover {
     background-color: #dfdfdf;
+}
+#copy-instructions {
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* Responsividade */
+@media(max-width: 450px){
+    #box-shadow-generator {
+        flex-direction: column;
+
+    }
+    #controls-container,
+    #preview {
+        padding: 1rem 2rem;
+    }
+    #box{
+        width: 60%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    #generated-rule{
+        margin-top: 2rem;
+    }
 }
