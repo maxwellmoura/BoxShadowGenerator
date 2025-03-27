@@ -6,7 +6,7 @@
   <!-- <a href="https://dev.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Gerador de Box Shadow/h1>
+<h1 align="center">Gerador de Box Shadow</h1>
 
 
 
@@ -18,16 +18,6 @@
 
 <hr> -->
 
-<p align="center">
-  <a href="#dart-about">Descrição</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Estrutura do Projeto</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Clone do Projeto</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Melhorias Futuras</a> &#xa0; | &#xa0;
-  <a href="#memo-license">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{maxwellmoura}}" target="_blank">Autor</a>
-</p>
 
 <br>
 
